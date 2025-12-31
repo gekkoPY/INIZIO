@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 #Portfolio specs
 
 Assets = ["AAPL", "MSFT", "GOOGL", "AMZN", "TSLA", "GC=F", "XOM", "WMT", "COST", "JPM"]  #You can change these tickers as you wish
-period= "5y" #You can change the period as you wish (e.g: "1y", "6mo", "3mo", "5y", "10y") keep in mind that the larger the period the longer it will take the fetch and process the data
+period= "10y" #You can change the period as you wish (e.g: "1y", "6mo", "3mo", "5y", "10y") keep in mind that the larger the period the longer it will take the fetch and process the data
 print(f"Fetching data for your portfolio)")
 
 #Parameters
