@@ -27,4 +27,4 @@ My very first financial data visualization project using Matplotlib.
 2. Install dependencies: `pip install pandas yfinance plotly`.
 3. Run any `.py` file and follow the terminal instructions!
 
-*Created by gekkoPY - Powered by Python & Financial Data* ☕
+*Created by gekkoPY - Powered by Python & Financial Data as well as some coffee* ☕
