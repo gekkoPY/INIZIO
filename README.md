@@ -7,7 +7,7 @@ ________________________________________________________________________________
 
 
 🚀 Projects Overview
-1. 🦄 The Portfolio Optimiser (best_allocation.py) [NEW 🔥]
+1. 🦄 The Portfolio Optimiser (best_allocation.py) 
 My most advanced project yet. A full-scale Monte Carlo Simulation engine designed to find the mathematically optimal portfolio.
 
 Mission: Fires 50,000+ simulations to find the exact asset allocation that maximizes returns relative to risk (Max Sharpe Ratio).
