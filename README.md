@@ -1,5 +1,8 @@
 Welcome to my personal collection of financial analysis tools aimed at extracting insights from market data using Python. This repository documents my journey from basic plotting to advanced portfolio optimization algorithms.
-
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
 
 
 
@@ -18,10 +21,10 @@ Efficient Frontier Visualization: A scatter plot visualizing the risk-return tra
 Wealth Simulator: Tracks how a $10k investment transforms over 10 years (finding +2,000% returns strategies).
 
 Smart Auto-Adjust: Automatically handles dividends and stock splits using auto_adjust=True.
-
-
-
-
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
 2. 🎯 Portfolio Sniper (portfolio_sniper.py)
 A precision tool for deep-dive risk analysis of a basket of assets.
 
@@ -32,7 +35,10 @@ Key Features:
 Correlation Heatmap: A professional, dark-themed correlation matrix to spot diversification opportunities (or dangerous overlaps).
 
 Risk Metrics: Calculates Sharpe Ratio AND Sortino Ratio (which only penalizes downside volatility) for every single asset.
-
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
 
 
 
@@ -46,7 +52,10 @@ Key Features:
 Cumulative return calculation (Normalizing assets to 0%).
 
 Interactive chart opened directly in your browser.
-
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
 
 
 
@@ -56,7 +65,10 @@ A detailed visualization tool for single-stock analysis.
 Includes interactive line charts and technical indicators.
 
 Designed for deep-dives into historical price actions.
-
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
 
 
 
@@ -66,7 +78,10 @@ My very first financial data visualization project using Matplotlib.
 Focuses on clean, static price trend analysis over a 2-year period.
 
 Useful for quick snapshots and generating reports.
-
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+___________________________________________________________________________________________
 
 
 
