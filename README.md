@@ -85,7 +85,8 @@ ________________________________________________________________________________
 
 
 
-🛠️ How to use
+🛠️ How to use:
+_______________________________________________________________
 Clone this repository:
 git clone https://github.com/gekkoPY/financial-tools.git
 
