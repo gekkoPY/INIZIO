@@ -44,7 +44,7 @@ stocks_return= data.pct_change().dropna()
 print("---Data fetched successfully! Now let's cook the with Monte Carlo simulation!---")
 
 #MONTECARLO SIMULATION
-scenarios=10000
+scenarios=50000
 days_in_year = 252
 risk_free_rate = 0.042
 
@@ -105,7 +105,7 @@ scatter = plt.scatter(volatility_array, returns_array, c=sharpe_array, cmap='vir
 plt.colorbar(scatter, label="Sharpe Ratio")
 plt.xlabel("Volatility")
 plt.ylabel("Annualized Return")
-plt.title("Efficient Frontier:10000 Simulated Portfolios")
+plt.title(f"Efficient Frontier: {scenarios:,} Simulated Portfolios", fontsize=14)
 
 #We draw a red star on the winnder in order to highlight it
 max_sharpe_ret = returns_array[index_max_sharpe]
@@ -115,7 +115,7 @@ plt.legend(loc="upper left")
 
 
 
-#Now we create the perfomance line chart assuming we invested 10k dollard using the optimal weights
+#Now we create the perfomance line chart assuming we invested 10k dollar using the optimal weights
 initial_investment = 10000
 portfolio_daily_returns = (stocks_return* optimal_weights).sum(axis=1)
 cumulative_return= (1+portfolio_daily_returns).cumprod()
